@@ -1,11 +1,7 @@
 
-/* navbar */
+/* Navbar */
 .navbar{
   height: 63px;
-  background-color: red;
-}
-.custom-bg {
-  background-color: #3498db; 
 }
 a{
   color: #333;
@@ -24,19 +20,36 @@ a:hover{
 .inputsize{
   width: 300px;
 }
-.footer {
+
+/* Footer */
+footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  font-size: 0.9rem;
   position: fixed;
-  bottom: -100px;
-  left: 0;
-  right: 0;
-  z-index: 9;
-  display: flex;
-  background-color: rgba(255, 255, 255, .8);
-  backdrop-filter: blur(8px);
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 10px;
-  padding-bottom: 8px;
-  height: 56px;
-  transition: .5s
+  bottom: 0;
+  width: 100%;
 }
+
+.footer-links {
+  background-color: rgb(229, 230, 234);
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px; /* Add padding to ensure links are not touching the edges */
+}
+
+.footer-links a {
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+  color: #2fc0b7;
+}
+
+.footer-text {
+  color: #333;
+}
+
