@@ -1,6 +1,5 @@
 
 /* navbar */
-
 .navbar{
   height: 63px;
   background-color: red;
@@ -25,7 +24,19 @@ a:hover{
 .inputsize{
   width: 300px;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.footer {
+  position: fixed;
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  display: flex;
+  background-color: rgba(255, 255, 255, .8);
+  backdrop-filter: blur(8px);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  height: 56px;
+  transition: .5s
+}
