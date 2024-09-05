@@ -4,7 +4,7 @@ import logo from '../assets/logo.webp'
 const Navbar = () => {
     return (
         <div className='shadow-sm'>
-            <nav className="navbar navbar-expand-lg mx-auto shadow-sm" style={{ width: '63%', backgroundColor: 'white' }}>
+            <nav className="navbar navbar-expand-lg mx-auto" style={{ width: '63%', backgroundColor: 'white'}}>
 
                 <img src={logo} className='mr-3' alt="Get App Quick" style={{ height: '30px', width: '200px', fontWeight: 'bold' }} />
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
