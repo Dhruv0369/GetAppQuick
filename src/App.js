@@ -1,17 +1,21 @@
 
 import './App.css';
 import Footer from './components/Footer';
+import Home from './components/Home';
 import Navbar from './components/Navbar';
-import PopularApps from './components/PopularApps';
-import Topgame from './components/Topgame';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Topgame/>
-      <PopularApps/>
-      <Footer/>
+              <div id="topanchor"></div>
+
+          <Navbar />
+      <div className="home">
+        <div className="layout-maxbox">
+          <Home />
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }

@@ -6,9 +6,9 @@ import banner03 from '../assets/3@2x.jpg'
 import banner04 from '../assets/4@2x.jpg'
 
 function Topgame() {
-  return (
-    <>
-<section className="top-apps top-blogs">
+    return (
+        <>
+            {/* <section className="top-apps top-blogs">
             <div className="popgames">
         <div className="popgames-item full-item">
             <a href="web/category/Mjc%3d.html" className="popgames-con">
@@ -84,9 +84,169 @@ function Topgame() {
             </a>
         </div>
     </div>
-</section>
+</section> */}
+            {/* <section className="top-apps top-blogs">
+                <div className="popgames">
+                    <div className="popgames-item full-item">
+                        <a href="http://getappsquick.us/web/category/Mjc%3D" className="popgames-con">
+                            <div className="popgames-item-all">
+                                <img className="popgames-item-pic" src={banner01} alt="Best Entertainment Apps on Android" />
+                                <div className="" />
+                                <div className="item-graduala" />
+                                <div className="item-games">
+                                    <div className="item-tag">Editor’s Choice</div>
+                                    <div className="games-inf">
+                                        <h3 className="games-inf-tit-black">Best Entertainment Apps on Android</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
 
-    </>
-  );
+                    <div className="popgames-item">
+                        <a href="http://getappsquick.us/web/category/NDI%3D" className="popgames-con">
+                            <div className="popgames-item-all">
+                                <img className="popgames-item-pic" src={banner02} alt="Top Productivity Apps to Help You Work Smarter" />
+                                <div className="item-shadow" />
+                                <div className="item-graduala" />
+                                <div className="item-games">
+                                    <div className="games-inf">
+                                        <h3 className="games-inf-tit">Top Productivity Apps to Help You Work Smarter</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className="popgames-item">
+                        <a href="http://getappsquick.us/web/category/NDM%3D" className="popgames-con">
+                            <div className="popgames-item-all">
+                                <img className="popgames-item-pic" src={banner03} alt="4 Best Shopping Apps to Check Out This Season" />
+                                <div className="item-shadow" />
+                                <div className="item-graduala" />
+                                <div className="item-games">
+                                    <div className="games-inf">
+                                        <h3 className="games-inf-tit">4 Best Shopping Apps to Check Out This Season</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className="popgames-item">
+                        <a href="http://getappsquick.us/web/category/NDE%3D" className="popgames-con">
+                            <div className="popgames-item-all">
+                                <img className="popgames-item-pic" src={banner04} alt="Top Apps to Get Your Photos/Videos Done" />
+                                <div className="item-shadow" />
+                                <div className="item-graduala" />
+                                <div className="item-games">
+                                    <div className="games-inf">
+                                        <h3 className="games-inf-tit">Top Apps to Get Your Photos/Videos Done</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section> */}
+<section className="top-apps top-blogs">
+        <div className="popgames">
+          {/* 0 */}
+          <div className="popgames-item full-item">
+            <a href="../blog/blog1.html" className="popgames-con">
+              <div className="popgames-item-all">
+                <img
+                  lazyload=""
+                  className="popgames-item-pic"
+                  src={banner01}
+                  data-src="../public/blog/1@2x.jpg"
+                  alt="Best Entertainment Apps on Android"
+                />
+                <div className="item-shadow" />
+                <div className="item-graduala" />
+                <div className="item-games">
+                  <div className="item-tag">Editor’s Choice</div>
+                  <div className="games-inf">
+                    <h3 className="games-inf-tit">
+                      Best Entertainment Apps on Android
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          {/* 1 */}
+          <div className="popgames-item">
+            <a href="../blog/blog2.html" className="popgames-con">
+              <div className="popgames-item-all">
+                <img
+                  lazyload=""
+                  className="popgames-item-pic"
+                  src={banner02}
+                  data-src="../public/blog/2@2x.jpg"
+                  alt="Top Productivity Apps to Help You Work Smarter"
+                />
+                <div className="item-shadow" />
+                <div className="item-graduala" />
+                <div className="item-games">
+                  <div className="games-inf">
+                    <h3 className="games-inf-tit">
+                      Top Productivity Apps to Help You Work Smarter
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          {/* 2 */}
+          <div className="popgames-item">
+            <a href="../blog/blog3.html" className="popgames-con">
+              <div className="popgames-item-all">
+                <img
+                  lazyload=""
+                  className="popgames-item-pic"
+                  src={banner03}
+                  data-src="../public/blog/3@2x.jpg"
+                  alt="4 Best Shopping Apps to Check Out This Season"
+                />
+                <div className="item-shadow" />
+                <div className="item-graduala" />
+                <div className="item-games">
+                  <div className="games-inf">
+                    <h3 className="games-inf-tit">
+                      4 Best Shopping Apps to Check Out This Season
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          {/* 3 */}
+          <div className="popgames-item">
+            <a href="../blog/blog4.html" className="popgames-con">
+              <div className="popgames-item-all">
+                <img
+                  lazyload=""
+                  className="popgames-item-pic"
+                  src={banner04}
+                  data-src="../public/blog/4@2x.jpg"
+                  alt="Top Apps to Get Your Photos/Videos Done"
+                />
+                <div className="item-shadow" />
+                <div className="item-graduala" />
+                <div className="item-games">
+                  <div className="games-inf">
+                    <h3 className="games-inf-tit">
+                      Top Apps to Get Your Photos/Videos Done
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+        </>
+    );
 }
 export default Topgame;
