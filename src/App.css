@@ -49,6 +49,10 @@ a {
   display: block
 }
 
+a:hover, a:focus {
+  text-decoration: none;
+}
+
 a[valu=pcpart] {
   display: none
 }

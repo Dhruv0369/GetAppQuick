@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/Telegram.png'
+
 const TopFreeApps = () => {
   return (
     <>
