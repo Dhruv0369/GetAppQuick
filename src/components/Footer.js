@@ -33,19 +33,19 @@ const Footer = () => {
           Copyright © 2024 Get App Quick. All Rights Reserved.
         </div>
         <a href="#topanchor" className="aboutus-topanchor">
-          <i class="icon-top icon-wh20 fa-solid fa-circle-arrow-up"></i>
+          <i className="icon-top icon-wh20 fa-solid fa-circle-arrow-up"></i>
           &nbsp; BACK TO TOP
         </a>
       </section>
 
       <footer className="footer">
       <a href="games.html" className="footer-item">
-          <i class="icon-footer-games fa-solid fa-gamepad"></i>
+          <i className="icon-footer-games fa-solid fa-gamepad"></i>
           <br />
           Games
         </a>
         <a href="apps.html" className="footer-item">
-          <i class="icon-footer-apps fa-solid fa-dice-d6"></i>
+          <i className="icon-footer-apps fa-solid fa-dice-d6"></i>
           <br />
           Apps
         </a>

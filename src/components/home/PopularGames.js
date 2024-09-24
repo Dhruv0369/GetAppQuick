@@ -1,6 +1,7 @@
 import React from 'react'
-import logo1 from '../assets/subaway suffer.jpg'
-import gamelogo from '../assets/Aquarium.png'
+import logo1 from '../../assets/subaway suffer.jpg'
+import gamelogo from '../../assets/Aquarium.png'
+
 
 const PopularGames = () => {
     return (

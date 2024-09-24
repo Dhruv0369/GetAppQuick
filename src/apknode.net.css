@@ -1,0 +1,92 @@
+/* apknode.css */
+
+.header-searchall {
+    display: block
+  }
+  
+  .ad_tips ins[data-adsbygoogle-status=done] {
+    position: relative
+  }
+  
+  .ad_tips ins[data-adsbygoogle-status=done][data-ad-slot]:after {
+    content: "advertisement";
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 0 5px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 4px 4px 0 0;
+    color: #999;
+    z-index: 1
+  }
+  
+  .ad_tips #add-ads ins[data-adsbygoogle-status=done] {
+    margin-top: 21px
+  }
+  
+  .ad_tips .appdetail-header+.adsbygoogle {
+    margin-top: 27px
+  }
+  
+  .ad_tips .desAds ins {
+    margin-top: 25px
+  }
+  
+  .ad_tips .appDetail-ratings+.adsbygoogle {
+    margin-top: 30px
+  }
+  
+  .ad_tips .appDetail-ratings+.adsbygoogle {
+    margin-top: 30px
+  }
+  
+  .ad_tips ins[data-ad-slot="1607201269"] {
+    margin-top: 30px !important
+  }
+  
+  .ad_tips_m ins[data-adsbygoogle-status=done] {
+    position: relative
+  }
+  
+  .ad_tips_m ins[data-adsbygoogle-status=done][data-ad-slot]:after {
+    content: "advertisement";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 5px;
+    background-color: rgba(0, 0, 0, .18);
+    border-radius: 0 0 4px 0;
+    color: rgba(255, 255, 255, .9);
+    z-index: 1
+  }
+  
+  .layout-maxbox {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .aboutus {
+    position: inherit;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-right: 160px;
+    padding-left: 160px;
+  }
+  
+  @media (max-width: 768px) {
+    .showmore-item {
+        width: 100% !important;
+    }
+  }
+  
+  .showmore-item {
+    width: 71%;
+  }

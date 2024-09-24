@@ -1,9 +1,10 @@
 import React from 'react';
-import applogo from '../assets/gmail.jpg'
-import banner01 from '../assets/1@2x.jpg'
-import banner02 from '../assets/2@2x.jpg'
-import banner03 from '../assets/3@2x.jpg'
-import banner04 from '../assets/4@2x.jpg'
+import applogo from '../../assets/gmail.jpg'
+import banner01 from '../../assets/1@2x.jpg'
+import banner02 from '../../assets/2@2x.jpg'
+import banner03 from '../../assets/3@2x.jpg'
+import banner04 from '../../assets/4@2x.jpg'
+
 
 function Topgame() {
   return (

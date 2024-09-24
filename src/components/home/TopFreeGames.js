@@ -1,16 +1,16 @@
 import React from 'react'
-import logo from '../assets/Telegram.png'
+import logo from '../../assets/Telegram.png'
 
-const TopFreeApps = () => {
+const TopFreeGames = () => {
   return (
     <>
       <section className="home-topfree">
         <h2 className="layout-mintit">
-          Top Free Apps
+          Top Free Games
           <a href="ranking_apps.html" className="layout-mintit-more">
             View More 
             
-            <i class="icon-right fa-solid fa-arrow-right-long pl-2"><use className="active" xlinkHref="#icon-right-active" /></i>
+            <i className="icon-right fa-solid fa-arrow-right-long pl-2 icon-hover"><use className="active" xlinkHref="#icon-right-active" /></i>
           </a>
         </h2>
         <div className="topfree">
@@ -209,4 +209,4 @@ const TopFreeApps = () => {
   )
 }
 
-export default TopFreeApps
+export default TopFreeGames

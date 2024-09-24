@@ -1,17 +1,19 @@
 import React from 'react'
-import Topgame from './Topgame'
-import PopularApps from './PopularApps'
-import PopularGames from './PopularGames'
-import TopFreeApps from './TopFreeApps'
-import TopFreeGames from './TopFreeGames'
+import Topgame from '../components/home/Topgame'
+import PopularApps from '../components/home/PopularApps'
+import PopularGames from '../components/home/PopularGames'
+import TopFreeApps from '../components/home/TopFreeApps'
+import TopFreeGames from '../components/home/TopFreeGames'
+import '../Home.css';
+
 const Home = () => {
   return (
     <>
-          <Topgame />
-          <PopularApps />
-          <PopularGames/>
-          <TopFreeApps/>
-          <TopFreeGames/>
+      <Topgame />
+      <PopularApps />
+      <PopularGames />
+      <TopFreeApps />
+      <TopFreeGames />
     </>
   )
 }

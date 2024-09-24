@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import logo from '../assets/logo.webp';
 
 const Navbar = () => {
@@ -6,7 +7,6 @@ const Navbar = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
 
     useEffect(() => {
-        // Function to handle screen width change
         const handleResize = () => {
             if (window.innerWidth > 600) {
                 setIsChecked(true);
@@ -15,20 +15,15 @@ const Navbar = () => {
             }
         };
 
-        // Initial check
         handleResize();
-
-        // Add event listener for window resize
         window.addEventListener('resize', handleResize);
 
-        // Clean up event listener on component unmount
         return () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
 
     useEffect(() => {
-        // Function to handle lazy loading of images
         const lazyLoadImages = () => {
             const viewHeight = window.innerHeight;
             const images = document.querySelectorAll("img[data-src][lazyload]");
@@ -46,10 +41,8 @@ const Navbar = () => {
             });
         };
 
-        // Initial lazy load check
         lazyLoadImages();
 
-        // Function to handle header/footer visibility on scroll
         const handleScroll = () => {
             const currentScrollPosition = window.scrollY;
             if (window.innerWidth >= 601) {
@@ -67,11 +60,9 @@ const Navbar = () => {
             setScrollPosition(currentScrollPosition);
         };
 
-        // Attach event listeners
         window.addEventListener('scroll', handleScroll);
         window.addEventListener('resize', lazyLoadImages);
 
-        // Clean up event listeners on component unmount
         return () => {
             window.removeEventListener('scroll', handleScroll);
             window.removeEventListener('resize', lazyLoadImages);
@@ -81,29 +72,29 @@ const Navbar = () => {
     return (
         <header className="header">
             <div className="header-all layout-minbox">
-                <a href="home_page.html" className="header-logobox">
+                <Link to="/" className="header-logobox">
                     <img
                         src={logo}
                         alt="Logo"
                         className="header-logobox-logo"
                     />
-                </a>
-                <a href="apps.html" className="header-app">
+                </Link>
+                <Link to="/apps" className="header-app">
                     <div className="header-box">
                         <div className="header-icon">
                             <i className="icon-footer-apps fa-solid fa-cubes"></i>
                         </div>
                         <div className="header-text">Apps</div>
                     </div>
-                </a>
-                <a href="games.html" className="header-game">
+                </Link>
+                <Link to="/games" className="header-game">
                     <div className="header-box">
                         <div className="header-icon">
                             <i className="icon-footer-games fa-solid fa-puzzle-piece"></i>
                         </div>
                         <div className="header-text">Games</div>
                     </div>
-                </a>
+                </Link>
                 <div className="header-searchall">
                     <input
                         type="checkbox"

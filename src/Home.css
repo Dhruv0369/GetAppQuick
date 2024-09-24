@@ -5122,3 +5122,322 @@ p.layout-mintit-tip {
       flex-direction: row
   }
 }
+/* Homepage.css */
+#topanchor {
+    height: 63px;
+  }
+  
+  .top-apps {
+    margin-top: 20px;
+  }
+  .top-apps .popgames-item-all{
+    height: 260px;
+    border-radius: 10px;
+  }
+  .top-apps .item-games{
+    height: 50px;
+    left: 15px;
+    bottom:15px;
+    right: 15px;
+  }
+  .top-apps .games-inf-tit {
+    font-size: 18px;
+    margin-top:2px;
+    max-width: none;
+  }
+  .top-apps .games-inf-other {
+    float: left;
+    font-size: 14px;
+    padding-top: 0;
+    margin-top: 6px;
+    color: #fff;
+  }
+  .top-apps .games-inf-grade {
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    padding-top: 0;
+    margin: 6px 0 0 10px;
+  }
+  .icon-star {
+    fill: #f9b700;
+    width: 16px;
+    height: 16px;
+    padding-right: 2px;
+  }
+  .home-popapps .layout-mintit,.home-popgames .layout-mintit{
+    padding-top: 13px;
+  }
+  .popgames-item:nth-child(1n+3) {
+    display: block;
+  }
+  .layout-apps-item{
+    width: 50%;
+  }
+  .layout-apps-item .layout-apps-con {
+    display: block;
+    border:1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  .layout-apps-item .layout-apps-con:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  }
+  .layout-place {
+    width: 50px;
+    height: 50px;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:0;
+    float:left;
+    margin-right: 12px;
+  }
+  .layout-apps-item-pic {
+    border-radius: 8px;
+    box-shadow: none !important;
+  }
+  .layout-apps-item-name{
+    font-size: 15px;
+    line-height: 1.2;
+    max-height: 36px;
+    height: auto;
+    margin-top: 2;
+    padding:0;
+  }
+  .layout-minbox{
+    max-width: 1160px;
+  }
+  .layout-maxbox{
+    max-width: 1160px;
+    padding-left: 20px;
+    padding-right:20px;
+  }
+  .layout-apps-item-cate {
+    font-size: 13px;
+    margin-top: 6px;
+    color: #7c8094;
+  }
+  .layout-apps-item-grade{
+    font-size: 13px;
+    color: #7c8094;
+    position: absolute;
+    bottom: 10px;
+    left: 72px;
+  }
+  .item-shadow {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 47.6%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000);
+  }
+  .item-graduala{
+    display: none;
+  }
+  
+  .home-popgames .popgames-item-all {
+    height: 180px;
+  }
+  .popgames-item-all:hover{
+    box-shadow: none;
+  }
+  .popgames-item-pic{
+    transition: transform 0.3s;
+  }
+  .popgames-con:hover .popgames-item-pic{
+    transform: scale(1.2);
+  }
+  .home-popgames .item-games{
+    position: inherit;
+    margin-top: 14px;
+    height: 50px;
+  }
+  .home-popgames .games-inf{
+    margin-left: 10px;
+    overflow: hidden;
+  }
+  .home-popgames .games-inf-tit{
+    max-width: none;
+    font-size: 15px;
+    margin-top:5px;
+    color: #252c4d;
+  }
+  .home-popgames .games-inf-other{
+    font-size: 13px;
+    color: #7c8094;
+    float:left;
+    padding-top: 8px;
+    margin-right: 8px;
+  }
+  .home-popgames .games-inf-grade{
+    font-size: 13px;
+    color: #7c8094;
+    padding-top: 6px;
+  }
+  
+  .home-topfree .layout-mintit{
+    padding-top: 20px;
+  }
+  .layout-topfree-con{
+    flex-direction: column;
+  }
+  .layout-topfree-item-pic{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .layout-topfree-item-inf{
+    width: 100%;
+    padding: 12px 0 0;
+  }
+  .layout-topfree-item-inf-name{
+    font-size: 15px;
+    padding: 0;
+  }
+  .layout-topfree-item-inf-other,.layout-topfree-item-inf-grade{
+    font-size: 13px;
+    color: #7c8094;
+  }
+  .layout-mintit-more{
+    font-size: 14px;
+    color: #7c8094;
+    font-weight: normal;
+  }
+  .layout-mintit-more .active{
+    display: none;
+  }
+  .layout-mintit-more:hover {
+    color: #32c5bc;
+    stroke: #32c5bc;
+  }
+  .layout-mintit-more:hover .active {
+    display: block;
+  }
+  .icon-right{
+    vertical-align: text-top;
+    margin-left: 2px;
+  }
+  .layout-apps-item-cate{
+    word-wrap: break-word;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .topfree{
+    overflow: hidden;
+    margin-left: -15px;
+  }
+  .topfree .layout-topfree-item{
+    width:25%;
+    padding-left:15px;
+    float: left;
+    height: auto;
+  }
+  .topfree .layout-topfree-item:nth-child(4){
+    display: block;
+  }
+  @media screen and (min-width: 601px){
+    .layout-place{
+        width: 80px;
+        height: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .layout-apps-item-grade{
+        left: 102px;
+    }
+  
+    .layout-apps{
+        margin-left: -15px;
+    }
+    .layout-apps-item, .layout-apps-allitem {
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+    .layout-mintit{
+        font-size: 22px;
+    }
+    .topfree{
+        height: auto;
+        margin-left: -37px;
+        flex-direction: row;
+    }
+    .layout-apps-item, .layout-apps-allitem{
+        width: 33.33%;
+    }
+  }
+  @media screen and (min-width: 900px){
+    .layout-apps-item, .layout-apps-allitem {
+        width: 20%;
+    }
+    .home-popgames  .popgames-item {
+        width: 25%;
+    }
+    .topfree .layout-topfree-item {
+        height: auto;
+        width: 11.11111%;
+        padding-left: 37px;
+    }
+    .layout-apps-item, .layout-apps-allitem{
+        width: 20%;
+    }
+  }
+  
+  .top-blogs .popgames-item-all {
+    height: 220px;
+  }
+  .top-blogs .games-inf{
+    margin:0
+  }
+  .top-blogs .item-games{
+    height: auto;
+  }
+  .top-blogs .games-inf-tit{
+    white-space: initial;
+    font-size: 19px;
+    margin: 0;
+  }
+  .full-item .popgames-item-pic{
+    object-position: left;
+  }
+  .full-item .item-tag{
+    display: none;
+  }
+  
+  
+  @media screen and (min-width: 900px){
+    .full-item{
+        width:100%;
+    }
+    .full-item .popgames-item-all{
+        height: 240px;
+    }
+    .full-item .item-shadow{
+        display: none;
+    }
+    .full-item .item-games{
+        left: 538px;
+        top: 57px;
+        flex-direction: column;
+    }
+    .full-item .games-inf-tit{
+        font-size: 26px;
+        color: #151515;
+    }
+    .full-item .item-tag{
+        display: block;
+        color: #fff;
+        background-color: #07837b;
+        border-radius: 4px;
+        font-size: 14px;
+        padding: 3px 0;
+        width: 109px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+  }
+
+  
